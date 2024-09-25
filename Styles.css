@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.settings {
+    margin-bottom: 20px;
+}
+
+.settings p {
+    font-size: 1.1em;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.win-btn {
+    background-color: #28a745;
+}
+
+.win-btn:hover {
+    background-color: #218838;
+}
+
+.loss-btn {
+    background-color: #dc3545;
+}
+
+.loss-btn:hover {
+    background-color: #c82333;
+}
+
+#log {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+#log p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.bet-amount {
+    color : blue ;
+}
