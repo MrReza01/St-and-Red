@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Betting Simulation</h1>
+        <div class="settings">
+            <h2>Current Settings</h2>
+            <p><strong>Starting Stake:</strong> <span id="starting-stake">10</span></p>
+            <p><strong>Current Bet:</strong> <span id="bet-amount">10</span></p>
+            <p><strong>Current Payout:</strong> <span id="current-payout">2</span></p>
+            <p><strong>Current Profit:</strong> <span id="current-profit">0</span></p>
+        </div>
+        <div class="controls">
+            <button id="win-btn" class="win-btn">Win</button>
+            <button id="loss-btn" class="loss-btn">Loss</button>
+        </div>
+        <div class="log" id="log"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
